@@ -1,1 +1,72 @@
-//Client.css file
+/*div.container {
+	padding-top: 100px;
+	width: 600px;
+	height: 400px;
+} */
+
+
+body {
+	background-color: gray;
+}
+#h2 {
+	text-align: center;
+}
+
+ #logo{		
+ 	margin:10px;
+	width : 340px;
+	height: 400px;
+	top:100px;
+	left: 200px;
+	position: relative;
+
+	
+}
+
+ #login {
+ 	background-color: yellow;
+ 	margin:10px;
+ 	text-align: right;
+ 	width: 250px;
+ 	height: 100px;
+ 	left: 560px;
+ 	top: 100px;
+ 	position: absolute;
+ 	float:right;
+ 	clear: both;
+ }
+
+
+
+ #signin {
+ 	background-color: yellow;
+ 	margin: 10px;
+ 	text-align: right;
+ 	width:250px;
+ 	height: 290px;
+ 	left: 560px;
+ 	top: 210px;
+ 	position: absolute;
+ 	clear: both;
+ 	float: right;
+
+ }
+
+#overlapthis {
+    background-image:url("mymessage.gif");
+    height:100px;
+    left:50px; /* play around with this */
+    position:absolute;
+    top:90px; /* and play around with this */
+    width:500px;
+}
+
+#thebigimage {
+    background-image:url("bread_wine.jpg");
+    height:548px;
+    margin-left:auto;
+    margin-right:auto;
+    position:relative; /* and this has to be relative */
+    width:731px;
+} 
+
